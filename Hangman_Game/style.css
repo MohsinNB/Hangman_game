@@ -6,3 +6,16 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
+
+body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-left: 100px;
+    background-color: cadetblue;
+}
+
+/* .Hangman_box{
+    display: flex;
+} */
