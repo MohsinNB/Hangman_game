@@ -16,6 +16,79 @@ body {
     background-color: cadetblue;
 }
 
-/* .Hangman_box{
+.container{
+    width: 850px;
+    background-color: aliceblue;
     display: flex;
-} */
+    gap: 70px;
+    align-items: flex-end;
+    padding: 60px 40px;
+    border-radius: 10px;
+}
+
+.Hangman_box img{
+    max-width: 280px;
+}
+
+.Hangman_box h1{
+    font-size: 1.45rem;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.word_display{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.word_display .letter{
+    width: 28px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: 3px solid #000;
+}
+
+.word_display .letter.guessed{
+    border-color: transparent;
+    margin: -40px 0 35px;
+}
+
+.Game_box h4{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.Game_box .hint_text b{
+    font-weight: 600;
+}
+
+.Game_box .Guesses_text b{
+    color: #f80909;
+}
+
+.Game_box .keyboard{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.keyboard button{
+    width: calc(100% / 9 - 5px);
+    color:#fff;
+    background-color: rgba(6, 95, 185, 0.859);
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    padding: 7px;
+    border: none;
+    font-size: larger;
+    font-weight: 700;
+}
